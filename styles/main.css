@@ -1,1 +1,64 @@
 /* CURRENTLY IN: styles/main.css */
+
+/*  COLORS 
+*   #4EC094 
+*   #7bb7fa
+*   #D1625B
+*   #B33D40
+*   #507796
+*   #1E2E3E
+*/
+
+.container {
+	height: auto;
+	background-color: #4EC094; 
+}
+
+.dice {
+	width: 60%;
+	height: 450px;
+	margin: 5% auto;
+	background-color: #7bb7fa;
+}
+
+.dice--box {
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px #fff inset;
+}
+
+.dice-title {
+	font-size: 3.5rem;
+	text-align: center;
+	padding: 5%;
+}
+
+.dice-title--color {
+	color: #D1625B;
+}
+
+.dice__container {
+	width: 40%;
+	height: 125px;
+	background-color: #D1625B;
+	margin: 2% auto;
+}
+
+.dice__button {
+	width: 30%;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #006884;
+}
+
+.dice__button--titleRoll {
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.3rem;
+	color: white;
+}
+
+.dice--shadow {
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px #ccc inset;
+}
+
