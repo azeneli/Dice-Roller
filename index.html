@@ -3,14 +3,22 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0;">
-    <title>Dice-Roller</title>
+    <title>Dice Roller</title>
     <link rel='stylesheet' href='styles/reset.css'>
     <link rel='stylesheet' href='styles/main.css'>
 </head>
-<body>
+<body class="container">
 
-	
-	
+	<div class="dice dice--box">
+		<div class="dice-title">
+			<p class="dice-title--color">Roll da Dice</p>
+		</div> <!-- .dice-title -->
+		<div class="dice__container dice--shadow"></div>
+		<div class="js-button dice__button dice--shadow">
+			<p class="dice__button--titleRoll">Roll</p>
+		</div> <!-- .dice __container-->
+	</div> <!-- .dice -->
+
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
     <script src='javascript/main.js'></script>
 </body>
